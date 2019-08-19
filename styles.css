@@ -338,11 +338,11 @@ p {
 
   .contact-info {
     font-family: 'Libre Baskerville', serif;
-    font-size: 20px;
+    font-size: 14px;
     color: white;
     position: relative;
     left: 15px;
-    width: 40%;
+    width: 70%;
     bottom: 25px;
     text-align: center;
   }
