@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Personal and Creative</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon-2.ico">
+  <link href="https://fonts.googleapis.com/css?family=Kalam:300,400|Lato:300|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script type="text/javascript">
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-20px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+
+  <div id="navbar">
+    <a href="index.html">
+      <p>Home</p>
+    </a>
+    <a href="Eric Wang Resume.pdf">
+      <p>My Resume</p>
+    </a>
+    <a href="personalcreative.html">
+      <p>Personal</p>
+    </a>
+  </div>
+  <div class="Main">
+    <div class="header">
+      <center><h1>Dance</h1></center>
+<p>Fun fact: I learned how to dance in a 10x10 ft room in my basement.</p>
+
+<div class="dance" align=center>
+  About 4 years ago, I first started dancing by learning from YouTube videos and watching
+  my favorite choreographers perform. I didn't take an official class until my second year, and freestyling
+  has always been my favorite part of dance.
+<br><br>
+<font size=5><strong>That was it: Freestyling + Youtube = Improvement.</strong></font>
+<br><br>
+  This is why I truly believe anyone can learn how to dance.
+  Here are some snippets of past performances I've been a part of. Enjoy!
+</div>
+    </div>
+  </div>
+
+
+
+  <center>
+    <div class="video-container">
+      <video width="800" height="600" controls>
+        <source src="JSE2018.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+    <br>
+    <div class="iframe-container">
+      <iframe width="800" height="600" src="https://www.youtube.com/embed/ctQ51DRglCg" frameborder="0"
+      allow="play; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="iframe-container2">
+    <iframe width="800" height="600" src="https://www.youtube.com/embed/qhPYRn8spho" frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+  </center>
+</body>
+
+</html>
